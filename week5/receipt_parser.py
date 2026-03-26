@@ -61,4 +61,4 @@ if __name__ == "__main__":
         text = f.read()
 
     receipt = parse_receipt(text)
-    print_data(receipt)
+    print(receipt)
